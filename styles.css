@@ -11,20 +11,30 @@
 }
 
 body {
-    background: #fff;
-    color: #000;
+    background: #dad6bd;
+    color: #432a28;
     font-family: Helvetica, Arial;
     text-align: center;
 }
 
 blockquote {
-  background-color: #EEF5FC;
+  color: #873522;
   font-family: Roboto, Mono;
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+code {
+    color: #873522;
+    font-family: Roboto, Mono;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center
 }
 
 .wrapper {
@@ -36,7 +46,7 @@ blockquote {
 }
 
 header {
-    background-color: #eee;
+    background-color: #149ba8;
 }
 
 header .wrapper {
@@ -50,8 +60,8 @@ header a {
 }
 
 header .site-name {
-    font-size: 1.5em;
-    color: #000;
+    font-size: 1.6em;
+    color: #432a28;
     font-weight: bold;
 }
 
@@ -94,7 +104,7 @@ a {
     display: block;
     padding: 20px;
     border-radius: 20px;
-    background-color: #eee;
+    background-color: #149ba8;
     margin-bottom: 20px;
 }
 
@@ -118,8 +128,8 @@ a {
 .tag-list li,
 .tag {
     display: inline-block;
-    background-color: #000;
-    color: #ddd;
+    background-color: #432a28;
+    color: #dad6bd;
     padding: 4px 6px;
     border-radius: 5px;
     margin-right: 5px;
@@ -150,31 +160,31 @@ a {
 }
 
 footer {
-    color: #8a8a8a;
+    color: #b8b7b7;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #061423;
-    }
-
-    body,
-    header .site-name {
-        color: #ddd;
-    }
-    
-    blockquote {
-      background-color: #091F34;
-    }
-
-    .item-list > li {
-        background-color: #333;
-    }
-
-    header {
-        background-color: #3D0034;
-    }
-}
+/*@media (prefers-color-scheme: dark) {*/
+/*    body {*/
+/*        background-color: #061423;*/
+/*    }*/
+/**/
+/*    body,*/
+/*    header .site-name {*/
+/*        color: #ddd;*/
+/*    }*/
+/*    */
+/*    blockquote {*/
+/*      background-color: #091F34;*/
+/*    }*/
+/**/
+/*    .item-list > li {*/
+/*        background-color: #333;*/
+/*    }*/
+/**/
+/*    header {*/
+/*        background-color: #3D0034;*/
+/*    }*/
+/*}*/
 
 @media(max-width: 600px) {
     .wrapper {
