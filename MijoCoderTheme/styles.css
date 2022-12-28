@@ -4,6 +4,8 @@
 *  MIT license, see LICENSE file for details
 */
 
+@import url("sundellsColors.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +21,8 @@ body {
 
 blockquote {
   color: #873522;
-  font-family: Roboto, Mono;
+/*  font-family: Menlo, Roboto, Mono;*/
+/*  font-size: 0.8em;*/
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -29,8 +32,8 @@ blockquote {
 
 code {
     color: #873522;
-    font-family: Roboto, Mono;
-    font-weight: bold;
+    background-color: #dedac4;
+/*    font-family: Menlo, Roboto, Mono;*/
 }
 
 .center {
@@ -60,7 +63,7 @@ header a {
 }
 
 header .site-name {
-    font-size: 1.6em;
+    font-size: 1.8em;
     color: #432a28;
     font-weight: bold;
 }
@@ -71,6 +74,7 @@ nav {
 
 nav li {
     display: inline-block;
+    font-size: 1.2em;
     margin: 0 7px;
     line-height: 1.5em;
 }
@@ -81,7 +85,7 @@ nav li a.selected {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 h2 {
@@ -102,10 +106,10 @@ a {
 
 .item-list > li {
     display: block;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #149ba8;
-    margin-bottom: 20px;
+/*    padding: 10px;*/
+/*    border-radius: 20px;*/
+/*    background-color: #149ba8;*/
+    margin-bottom: 15px;
 }
 
 .item-list > li:last-child {
@@ -146,6 +150,8 @@ a {
 
 .content {
     margin-bottom: 40px;
+    font-size: 1.2em;
+    line-height: 1.2;
 }
 
 .browse-all {
@@ -157,6 +163,25 @@ a {
     font-size: 1.4em;
     margin-right: 10px;
     padding: 6px 10px;
+}
+
+.post-item {
+    font-size: 1.2em;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.box {
+    width: fit-content;
+    margin: 0 auto;
+    height:100%;
+/*    border:1px solid #8D8D8D;*/
+}
+
+.bold {
+    font-weight: bold;
 }
 
 footer {
