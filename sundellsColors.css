@@ -6,7 +6,7 @@
 
 pre {
     margin-bottom: 1.5em;
-    background-color: #211514;
+    background-color: #1a1a1a;
     padding: 16px 0;
     border-radius: 16px;
 }
@@ -15,8 +15,7 @@ pre code {
     font-family: monospace;
     display: block;
     padding: 0 20px;
-    color: #dad6bd;
-    background-color: #211514;
+    color: #a9bcbc;
     line-height: 1.4em;
     font-size: 0.95em;
     overflow-x: auto;
@@ -24,38 +23,38 @@ pre code {
     -webkit-overflow-scrolling: touch;
 }
 
-pre code .swift_keyword {
+pre code .keyword {
     color: #e73289;
 }
 
-pre code .swift_type {
+pre code .type {
     color: #8281ca;
 }
 
-pre code .swift_call {
+pre code .call {
     color: #348fe5;
 }
 
-pre code .swift_property {
+pre code .property {
     color: #21ab9d;
 }
 
-pre code .swift_number {
+pre code .number {
     color: #db6f57;
 }
 
-pre code .swift_string {
+pre code .string {
     color: #fa641e;
 }
 
-pre code .swift_comment {
+pre code .comment {
     color: #6b8a94;
 }
 
-pre code .swift_dotAccess {
+pre code .dotAccess {
     color: #92b300;
 }
 
-pre code .swift_preprocessing {
+pre code .preprocessing {
     color: #b68a00;
 }

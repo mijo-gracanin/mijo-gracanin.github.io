@@ -21,8 +21,7 @@ body {
 
 blockquote {
   color: #873522;
-/*  font-family: Menlo, Roboto, Mono;*/
-/*  font-size: 0.8em;*/
+  font-family: Roboto, Mono;
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -31,9 +30,9 @@ blockquote {
 }
 
 code {
-    color: #873522;
-    background-color: #dedac4;
-/*    font-family: Menlo, Roboto, Mono;*/
+    color: #149ba8;
+/*    font-family: Roboto, Mono;*/
+    font-weight: bold;
 }
 
 .center {
@@ -85,7 +84,7 @@ nav li a.selected {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 h2 {
@@ -106,7 +105,7 @@ a {
 
 .item-list > li {
     display: block;
-/*    padding: 10px;*/
+/*    padding: 20px;*/
 /*    border-radius: 20px;*/
 /*    background-color: #149ba8;*/
     margin-bottom: 15px;
@@ -163,25 +162,6 @@ a {
     font-size: 1.4em;
     margin-right: 10px;
     padding: 6px 10px;
-}
-
-.post-item {
-    font-size: 1.2em;
-}
-
-.fit-content {
-    width: fit-content;
-}
-
-.box {
-    width: fit-content;
-    margin: 0 auto;
-    height:100%;
-/*    border:1px solid #8D8D8D;*/
-}
-
-.bold {
-    font-weight: bold;
 }
 
 footer {
